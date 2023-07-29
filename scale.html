@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="./images/w_test.ico" type="image/x-icon">
+    <link rel="icon" href="./images/w_test.ico" type="image/x-icon">
+    <title>적정체중 테스트기</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styels.css">
+</head>
+<body>
+    <div class="bg">
+        <div class="title">
+            <img src="./images/star_yellow.png" alt="">
+            <h1>적정체중 테스트기</h1>
+            <img src="./images/star_grey.png" alt="">
+        </div>
+        <div class="contents">
+            <form action="#" method="post" >
+                <fieldset>
+                    <legend>입력양식</legend>
+                    <ul>
+                        <li>
+                            <div class="left">
+                                남자<input type="radio" name="gender" id="man" value="man">
+                            </div>
+                            <div class="right">
+                                여자<input type="radio" name="gender" id="women" value="women">
+                            </div>
+                        </li>
+                        <li>
+                            신장<input type="text" placeholder="cm">
+                        </li>
+                        <li>
+                            체중<input type="text" placeholder="kg">
+                        </li>
+                        <li>
+                            <button id="sum_btn" type="button">계산</button>
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+        </div>
+        <div class="result">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>결과양식</legend>
+                    <input type="text" name="big" id="blank" value="blank">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
