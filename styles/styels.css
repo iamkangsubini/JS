@@ -4,7 +4,8 @@
     border: 1px solid #000;
     width: 1240px;
     height: 1500px;
-    margin: 0 auto
+    margin: 0 auto;
+    margin-top: 69px;
 }
 .bg .title {
     width: 681px;
@@ -91,11 +92,18 @@
     width: 260px;
     height: 50px;
     border: 1px solid #6C6B6B;
+    font-family: 경기;
+    font-size: 2.369rem;
+    letter-spacing: -0.02em;
 }
 .bg .contents .contents_frm fieldset ul li #weight {
     width: 260px;
     height: 50px;
-    border: 1px solid #6C6B6B;}
+    border: 1px solid #6C6B6B;
+    font-family: 경기;
+    font-size: 2.369rem;
+    letter-spacing: -0.02em;
+}
 .bg .contents .contents_frm fieldset ul li #sum_btn {
     font-family: 경기_보통;
     font-size: 3.157rem;
