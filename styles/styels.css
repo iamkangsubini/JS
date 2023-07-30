@@ -1,0 +1,126 @@
+.bg {
+    background-image: url(../images/bg.jpg);
+    border-radius: 50px;
+    border: 1px solid #000;
+    width: 1240px;
+    height: 1500px;
+    margin: 0 auto
+}
+.bg .title {
+    width: 681px;
+    height: 92px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 98px;
+}
+.bg .title img {
+    width: 70px;
+    height: 70px;
+}
+.bg .title h1 {
+    font-family: 경기_굵게;
+    font-size: 3.157rem;
+    letter-spacing: -0.02em;
+    color: #000;
+    background-color: #aacbba;
+    border-radius: 50px;
+    padding: 30px;
+}
+.bg .contents {
+    width: 367px;
+    height: 424px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    margin-top: 79px;
+}
+.bg .contents .contents_frm {}
+.bg .contents .contents_frm fieldset {}
+.bg .contents .contents_frm fieldset ul {}
+.bg .contents .contents_frm fieldset ul li {}
+.bg .contents .contents_frm fieldset ul li:nth-child(1) {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.bg .contents .contents_frm fieldset ul li .left {}
+.bg .contents .contents_frm fieldset ul li .left label {
+    font-family: 경기;
+    font-size: 2.369rem;
+    letter-spacing: -0.02em;
+    color: #000;
+    cursor: pointer;
+}
+.bg .contents .contents_frm fieldset ul li .left label #man {}
+.bg .contents .contents_frm fieldset ul li .right {}
+.bg .contents .contents_frm fieldset ul li .right label {
+    font-family: 경기;
+    font-size: 2.369rem;
+    letter-spacing: -0.02em;
+    color: #000;
+    cursor: pointer;
+}
+.bg .contents .contents_frm fieldset ul li .right label #woman {}
+.bg .contents .contents_frm fieldset ul li .right label #woman {}
+.bg .contents .contents_frm fieldset ul li:nth-child(2) {
+    font-family: 경기;
+    font-size: 2.369rem;
+    letter-spacing: -0.02em;
+    color: #000;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.bg .contents .contents_frm fieldset ul li:nth-child(3) {
+    font-family: 경기;
+    font-size: 2.369rem;
+    letter-spacing: -0.02em;
+    color: #000;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.bg .contents .contents_frm fieldset ul li #height {
+    width: 260px;
+    height: 50px;
+    border: 1px solid #6C6B6B;
+}
+.bg .contents .contents_frm fieldset ul li #weight {
+    width: 260px;
+    height: 50px;
+    border: 1px solid #6C6B6B;}
+.bg .contents .contents_frm fieldset ul li #sum_btn {
+    font-family: 경기_보통;
+    font-size: 3.157rem;
+    letter-spacing: -0.02em;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 80px;
+    padding: 50px 100px;
+    margin: 0 28px;
+    cursor: pointer;
+}
+.bg #result_frm {
+    background-color: #f28aad;
+    width: 860px;
+    height: 171px;
+    padding: 69.5px 375.5px;
+    border-radius: 100px;
+    margin: 0 auto;
+    margin-top: 79px;
+}
+.bg #result_frm fieldset {}
+.bg #result_frm fieldset #result {
+    font-family: 경기_굵게;
+    font-size: 1.777rem;
+    letter-spacing: -0.02em;
+    color: #fff;
+    background-color: #f28aad;
+}

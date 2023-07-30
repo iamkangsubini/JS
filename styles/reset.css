@@ -1,5 +1,17 @@
 * {box-sizing:border-box;}
 /*local or web(@import) 글꼴 작성위치*/
+@font-face {
+    font-family: '경기';
+    src: url(../fonts/경기천년제목_Light.ttf);
+}
+@font-face {
+    font-family: '경기_보통';
+    src: url(../fonts/경기천년제목_Medium.ttf);
+}
+@font-face {
+    font-family: '경기_굵게';
+    src: url(../fonts/경기천년제목_Bold.ttf);
+}
 /* reset.css */
 html,body,
 h1,h2,h3,h4,h5,h6,p,blockquote,address,

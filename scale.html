@@ -19,23 +19,27 @@
             <img src="./images/star_grey.png" alt="">
         </div>
         <div class="contents">
-            <form action="#" method="post" >
+            <form action="#" method="post" class="contents_frm">
                 <fieldset>
-                    <legend>입력양식</legend>
+                    <legend class="skip">입력양식</legend>
                     <ul>
                         <li>
                             <div class="left">
-                                남자<input type="radio" name="gender" id="man" value="man">
+                                <label>
+                                    남자<input type="radio" name="gender" id="man" value="man">
+                                </label>
                             </div>
                             <div class="right">
-                                여자<input type="radio" name="gender" id="women" value="women">
+                                <label>
+                                    여자<input type="radio" name="gender" id="woman" value="women">
+                                </label>
                             </div>
                         </li>
                         <li>
-                            신장<input type="text" placeholder="cm">
+                            신장<input type="text" placeholder="cm" name="body" id="height"> 
                         </li>
                         <li>
-                            체중<input type="text" placeholder="kg">
+                            체중<input type="text" placeholder="kg" name="body" id="weight">
                         </li>
                         <li>
                             <button id="sum_btn" type="button">계산</button>
@@ -44,14 +48,13 @@
                 </fieldset>
             </form>
         </div>
-        <div class="result">
-            <form action="#" method="post">
-                <fieldset>
-                    <legend>결과양식</legend>
-                    <input type="text" name="big" id="blank" value="blank">
-                </fieldset>
-            </form>
-        </div>
-    </div>
+        <form action="#" method="post" id=result_frm>
+            <fieldset>
+                <legend class="skip">결과양식</legend>
+                <input type="text" id="result">
+            </fieldset>
+        </form>
+    </div>   
+    <script src="./js/test.js"></script>
 </body>
 </html>
