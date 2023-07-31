@@ -1,0 +1,83 @@
+h1 {
+    font-family: 배찌;
+    font-size: 3.157rem;
+    color: #000;
+    margin: 83px 451px 0 683px;
+}
+.contents {
+    width: 905px;
+    height: 628px;
+    margin: 0 auto;
+    margin-top: 47px;
+    position: relative;
+}
+.contents .bg {
+    position: absolute;
+    top: 0; right: 0;
+}
+.contents .bg img {
+    width: 780px;
+    height: 531px;}
+.contents .character {
+    position: absolute;
+    left: 0; bottom: 0;
+}
+.contents .character img {
+    width: 325px;
+    height: 377px;
+}
+.contents .btn {
+    position: absolute;
+    bottom: 233px; right: 277px;
+}
+.contents .btn button {
+    cursor: pointer;
+}
+.contents .btn button:hover {
+    animation: up 0.6s both;
+}
+.contents .btn button img {
+    width: 155px;
+    height: 155px;
+}
+.contents .sum {
+    width: 474px;
+    height: 52px;
+    position: absolute;
+    top: 136px; right: 117px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.contents .sum span {
+    font-family: 배찌;
+    font-size: 2.369rem;
+    color: #000;
+}
+.contents .sum #dan2 {
+    width: 102px;
+    height: 51px;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-size: 2rem;
+}
+.contents .sum #calc {
+    width: 102px;
+    height: 51px;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-size: 2rem;
+}
+.contents .sum #result {
+    width: 102px;
+    height: 51px;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-size: 2rem;
+}
+/* keyframes */
+@keyframes up {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-20px);}
+}
