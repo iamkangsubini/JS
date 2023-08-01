@@ -119,15 +119,17 @@
     background-color: #f28aad;
     width: 860px;
     height: 171px;
-    padding: 69.5px 375.5px;
+    padding: 69.5px 0px;
     border-radius: 100px;
     margin: 0 auto;
     margin-top: 79px;
+    text-align: center;
 }
 .bg #result_frm fieldset {}
 .bg #result_frm fieldset #result {
+    width: 600px;
     font-family: 경기_굵게;
-    font-size: 1.777rem;
+    font-size: 2rem;
     letter-spacing: -0.02em;
     color: #fff;
     background-color: #f28aad;
