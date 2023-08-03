@@ -1,0 +1,81 @@
+/* pay window */
+.pay_window {
+    width: 622px; height: 215px;
+    margin: 0 auto;
+    margin-top: 127px;
+    background-color: #f2f2f2;
+    position: relative;
+}
+.pay_window h1 {
+    font-weight: 500;
+    font-size: 1.333rem;
+    color: #000;
+    position: absolute;
+    top: 31px; left: 19px;
+}
+/* count */
+.pay_window .count {
+    width: 448px; height: 108px;
+    background-color: #fdfdfd;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 30px; left: 19px;
+}
+/* top */
+.pay_window .count .top {
+    width: 413.04px; height: 19.14px;
+}
+.pay_window .count .top span {
+    font-size: 1.333rme;
+    color: #000;
+}
+.pay_window .count .top span:nth-child(1) {
+    margin-left: 17px;
+}
+.pay_window .count .top span:nth-child(3) {
+    margin-left: 15px; 
+}
+.pay_window .count .top #have_num {
+    font-size: 1.333rme;
+    color: #000;
+    margin-left: 261px; 
+}
+/* bottom */
+.pay_window .count .bottom {
+    width: 413.04px; height: 19.14px;
+}
+.pay_window .count .bottom span {
+    font-size: 1.333rme;
+    color: #000;
+}
+.pay_window .count .bottom span:nth-child(1) {
+    margin-left: 17px;
+}
+.pay_window .count .bottom #use_num {
+    font-size: 1.333rme;
+    color: #000;
+    margin-left: 261px;
+}
+.pay_window .count .bottom #x_btn {
+    margin-left: 10px;
+    background: none;
+    color: #ff40ca;
+    border: 2px solid #ff40ca;
+    padding: 2px;
+    display: none;
+}
+.pay_window .count .bottom span:nth-child(4) {
+    margin-left: 3px;
+}
+/* use_btn */
+.pay_window #all_btn {
+    font-size: 1.333rme;
+    color: #000;
+    background-color: #ffccf1;
+    padding: 10px;
+    position: absolute;
+    bottom: 45px; right: 25px;
+}

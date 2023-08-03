@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>네이버페이 포인트 결제창</title>
+    <link rel="shortcut icon" href="./images/naver_pay.ico" type="image/x-icon">
+    <link rel="icon" href="./images/naver_pay.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/reset3.css">
+    <link rel="stylesheet" href="./styles/style3.css">
+</head>
+<body>
+    <!-- pay_window -->
+    <div class="pay_window">
+        <h1>네이버페이 포인트 결제</h1>
+        <!-- count -->
+        <div class="count">
+            <!-- top -->
+            <div class="top">
+                <span>보유</span>
+                <span id="have_num">1,000</span>
+                <span>원</span>
+            </div>
+            <!-- bottom -->
+            <div class="bottom">
+                <span>사용</span>
+                <span id="use_num">0</span>
+                <button id="x_btn" type="button">X</button>
+                <span>원</span>
+            </div>
+        </div>
+        <!-- use_btn -->
+        <button id="all_btn" type="button">전액사용</button>
+    </div>
+    <script src="./js/point_pay.js"></script>
+</body>
+</html>
